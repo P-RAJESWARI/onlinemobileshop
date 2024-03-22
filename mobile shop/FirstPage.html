@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First page</title>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("FGPeI2R-A2SJR7i7C");
+   })();
+</script>
+        <script src="D:\ss.js"></script>
+        
+        
+        <style>
+       
+       .hel{
+            border:30px solid transparent;
+            border-radius:5px;
+            background-color:#73f2a4;
+            padding:20px;
+        }
+        .gh{
+         background-color:rgba(22, 89, 204, 0.699);
+          padding-top:6px;
+        }
+     
+       
+        </style>
+    </head>
+    <body>
+        <center>
+       
+            <div class="gh">
+            <h1>Details for contacting for Order details</h1><br><br></div>
+            <div id="ji">
+
+            </div>
+        
+            <div class="hel">
+            <form action="http://localhost/deta.php" method="POST">
+        name:<input type="text" name="name" onfocus="color(this);" onblur="fade(this);" placeholder="Enter name" id="name" required><br><br>
+        email:<input type="email" name="email" onfocus="color(this);" onblur="fade(this);" placeholder="xyz@gmail.com" id="email" required><br><br>
+        mobile:<input type="text" id="mobile" name="mobile" onfocus="color(this);" onblur="fade(this);"  placeholder="9999999999" required><br><br>
+        altmobile:<input type="text" name="altmobile" id="altmobile" onfocus="color(this);" onblur="fade(this);" placeholder="8888888888" required><br><br>
+        Age:<input type="range" min="10" max="90" value="18" onfocus="color(this);" onblur="fade(this);"><br><br><br>
+    
+        <button class="but" type="submit" onclick="sendMail();">submit</button>
+    </form>
+ 
+ 
+    </div>
+       
+    </center>
+
+    </body>
+</html>

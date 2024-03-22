@@ -1,0 +1,110 @@
+*{
+    box-sizing:border-box;
+
+}
+
+body{
+    margin:0;
+    background-color:hsl(0, 0%, 100%);
+}
+.header{
+    background-color:rgb(101, 76, 177);
+    height:90px;
+    color:white;
+}
+.container{
+width:98%;
+/*background-color:red;*/
+height:100%;
+margin:auto;
+}
+.dotin{
+    position:relative;
+    margin-left:50px;
+    margin-top:-8px;
+}
+.hello{
+    position:inherit;
+   margin-left:600px;
+    padding-left:20px;
+    margin-top:-8px;
+    font-family:Helvetica;
+}
+.logo-container{
+    height:50px;
+    width:50px;
+    align-items:center;
+    font-size:1.5rem;
+ 
+}
+.logo{
+    width:100px;
+    height:50px;
+    background:url("https://graphicsprings.com/wp-content/uploads/2023/04/6913ecc30a775069718f92bfb814ab1b.svg?x12330");
+     background-repeat:no-repeat;
+    position:relative ;
+    
+}
+
+.border-white{
+    border:1.5px solid transparent;
+}
+
+.border-white:hover{
+    background:white;
+ border:2.5px solid white;
+ border-radius:10px;
+}
+.search-container{
+    float:right;
+    border-top:-8px;
+    align-items: right;
+    margin-left:50%;
+    display:flex;
+    border-radius:3px;
+    
+    
+}
+.gam
+{
+width: 25px;
+height:20px;
+}
+.search-select{
+    width:60px;
+}
+.i1{
+    width: 145px; 
+    height:100px;
+    border:2px solid blanchedalmond;
+    border-radius:0%;
+}
+.image{
+    margin:20px;
+    border-spacing: 200%;
+}
+.i2{
+    width:145px;
+    height:250px;
+    border:2px solid blanchedalmond;
+    border-radius:0%;
+}
+.offers{
+    max-width: 700px;
+    width: 600px;
+    height: 414px;
+    margin: 0px;
+    border:2px solid blanchedalmond;
+  
+
+}
+.off{
+    max-width: 690px;
+    width: 450px;
+    height: 261px;
+    margin: 0.5px 0px;
+    border:2px solid blanchedalmond;
+}
+/*address-container{
+
+}*/
